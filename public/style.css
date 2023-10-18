@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* table styles */
+
+table {
+    margin: 20px 0;
+    border-collapse: collapse;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+table thead tr {
+    background: #f7f6f6;
+}
+
+table thead tr th {
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+
+table thead tr,
+table tbody tr {
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    color: #003147;
+}
+
+table tbody tr {
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+table tbody tr:hover {
+    background: #003147;
+    color: #fff;
+}
+
+table tbody tr td {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+table thead tr th:first-child,
+table tbody tr td:first-child{
+    text-align: left;
+}
+
+table thead tr th:last-child,
+table tbody tr td:last-child{
+    text-align: right;
+}
+
+table thead tr th,
+table tbody tr td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tbody tr:last-child td {
+    border-bottom: none;
+    padding: 8px 10px;
+}
+
+/* status styles */
+.status {
+    position: relative;
+    padding: 2px 4px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.accepted {
+    background: #00bb48;
+}
+
+.rejected {
+    background: #f00;
+}
+
+.submitted {
+    background: #1795ce;
+}
+
+
+
